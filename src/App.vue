@@ -56,7 +56,7 @@
     <!-- footer -->
     <div class="row">
       <div class="col-md-12 my-4 text-center">
-        <b>COVID-19 data sourced from the New York Times</b>
+        <b>COVID-19 data sourced from Johns Hopkins University</b>
       </div>
     </div>
 
