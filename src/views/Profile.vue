@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12 my-4">
-        <h1 class="text-center">Profile</h1>
+        <h1 class="text-center">Hello !! 👋 </h1>
       </div>
     </div>
 
@@ -10,7 +10,7 @@
       <div class="col-lg-4 mb-4">
         <div class="card">
           <div class="card-header bg-head text-white">
-            <h4>PERSONAL DETAILS</h4>
+            <h4>📗 PERSONAL DETAILS</h4>
           </div>
           <img src="../assets/profile.jpeg" class="card-img-top" alt="profile">
           <div class="card-body">
@@ -41,7 +41,7 @@
         <div class="col-lg-12 mb-4">
           <div class="card">
             <div class="card-header bg-head text-white">
-              <h4>I'M WEB DEVERLOPER</h4>
+              <h4>🌏 I'M WEB DEVERLOPER</h4>
             </div>
             <div class="card-body">
               <p>I'm looking for a job in Web Development. I'm interested Front-end, React.js, Vue.js and Back-end,
@@ -52,7 +52,7 @@
         <div class="col-lg-12 mb-4">
           <div class="card">
             <div class="card-header bg-head text-white">
-              <h4>ABOUT ME</h4>
+              <h4>👱 ABOUT ME</h4>
             </div>
             <div class="card-body">
               <div class="row mb-2">
