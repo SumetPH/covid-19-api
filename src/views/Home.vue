@@ -40,16 +40,16 @@
             <tr>
               <th>Date</th>
               <th>Cases</th>
-              <th>Deaths</th>
               <th>Recovered</th>
+              <th>Deaths</th>
             </tr>
           </thead>
           <tbody>
             <tr v-for="(d, index) in tableDate" :key="index">
               <td>{{d}}</td>
               <td>{{ dataSet.cases[d].toLocaleString() }}</td>
-              <td>{{ dataSet.deaths[d].toLocaleString() }}</td>
               <td>{{ dataSet.recovered[d].toLocaleString() }}</td>
+              <td>{{ dataSet.deaths[d].toLocaleString() }}</td>
             </tr>
           </tbody>
         </table>
@@ -92,7 +92,7 @@
             callbacks: {
               label: function (tooltipItem, data) {
                 var label = data.datasets[tooltipItem.datasetIndex].label
-                var value = data.datasets[0].data[tooltipItem.index];
+                var value = data.datasets[tooltipItem.datasetIndex].data[tooltipItem.index];
                 return `${label} : ${value.toLocaleString()}`
               }
             }
