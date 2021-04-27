@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12 my-4">
-        <h1 class="text-center">Covid-19 API</h1>
+        <h1 id="title" class="text-center">Covid-19 API</h1>
       </div>
     </div>
 
@@ -11,14 +11,14 @@
 
       <div class="col-md-6">
         <b>From</b>
-        <datepicker input-class="form-select" v-model="startDateSelect" @closed="dateChange"
+        <datepicker id="datepicker1" input-class="form-select" v-model="startDateSelect" @closed="dateChange"
           :disabled-dates="disabledDatesStart">
         </datepicker>
       </div>
 
       <div class="col-md-6">
         <b>To</b>
-        <datepicker input-class="form-select" v-model="endDateSelect" @closed="dateChange"
+        <datepicker id="datepicker2" input-class="form-select" v-model="endDateSelect" @closed="dateChange"
           :disabled-dates="disabledDatesEnd">
         </datepicker>
       </div>
@@ -28,14 +28,14 @@
     <!-- chart -->
     <div class="row">
       <div class="col-md-12 mt-5">
-        <chart :chart-data="chartData" :options="options" :height="200"></chart>
+        <chart id="chart" :chart-data="chartData" :options="options" :height="200"></chart>
       </div>
     </div>
 
     <!-- table -->
     <div class="row">
       <div class="col-md-12 mt-5">
-        <table class="table">
+        <table id="table" class="table">
           <thead>
             <tr>
               <th>Date</th>
@@ -59,7 +59,7 @@
     <!-- footer -->
     <div class="row">
       <div class="col-md-12 my-4 text-center">
-        <b>COVID-19 data sourced from Johns Hopkins University</b>
+        <b id="credit">COVID-19 data sourced from Johns Hopkins University</b>
       </div>
     </div>
 
