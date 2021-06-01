@@ -1,24 +1,15 @@
-# covid-19-api
+# Covid 19 API
+Chart and Table for show data of covid-19
 
-## Project setup
-```
-yarn install
-```
+## Technology
+Front-End : Vue.js  
+Back-End : -  
+Database : -  
+CSS Framework : Bootstrap  
+Host : Vercel
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## Reference
+https://covid-19-api-sumetph.vercel.app/
 
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Example
+<img src="https://i.imgur.com/3GcXRe0.png" />
